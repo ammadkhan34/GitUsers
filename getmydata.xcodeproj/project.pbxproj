@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813640DC28C65001008E690F /* Core2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 813640DA28C65001008E690F /* Core2.xcdatamodeld */; };
 		81402875287AF73000F526BD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81402874287AF73000F526BD /* Upload.swift */; };
 		8154053B2879CD8600361016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154053A2879CD8600361016 /* AppDelegate.swift */; };
 		8154053D2879CD8600361016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154053C2879CD8600361016 /* SceneDelegate.swift */; };
@@ -16,10 +17,17 @@
 		815405472879CD8800361016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815405452879CD8800361016 /* LaunchScreen.storyboard */; };
 		8154054F2879D04900361016 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154054E2879D04900361016 /* Model.swift */; };
 		815C74B1287D824800C33004 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C74B0287D824800C33004 /* Networking.swift */; };
+		81689BB028C48EB90087ADA0 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81689BAF28C48EB90087ADA0 /* Company.swift */; };
+		81689BB228C4919F0087ADA0 /* CompanyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81689BB128C4919F0087ADA0 /* CompanyData.swift */; };
+		816A11DA28C319260009C31D /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A11D928C319260009C31D /* GithubModel.swift */; };
+		816A11DD28C31DF60009C31D /* GitProfileXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A11DB28C31DF60009C31D /* GitProfileXib.swift */; };
+		816A11DE28C31DF60009C31D /* GitProfileXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816A11DC28C31DF60009C31D /* GitProfileXib.xib */; };
+		8173EB9928C3560500DF272A /* SecondVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173EB9828C3560500DF272A /* SecondVcViewController.swift */; };
 		D047A7EB3A7B17B1311D1101 /* Pods_getmydata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2E07674500800746B376E6 /* Pods_getmydata.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		813640DB28C65001008E690F /* Core2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core2.xcdatamodel; sourceTree = "<group>"; };
 		81402874287AF73000F526BD /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		815405372879CD8600361016 /* getmydata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getmydata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8154053A2879CD8600361016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +39,12 @@
 		815405482879CD8800361016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8154054E2879D04900361016 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		815C74B0287D824800C33004 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		81689BAF28C48EB90087ADA0 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		81689BB128C4919F0087ADA0 /* CompanyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyData.swift; sourceTree = "<group>"; };
+		816A11D928C319260009C31D /* GithubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
+		816A11DB28C31DF60009C31D /* GitProfileXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitProfileXib.swift; sourceTree = "<group>"; };
+		816A11DC28C31DF60009C31D /* GitProfileXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GitProfileXib.xib; sourceTree = "<group>"; };
+		8173EB9828C3560500DF272A /* SecondVcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVcViewController.swift; sourceTree = "<group>"; };
 		9A2E07674500800746B376E6 /* Pods_getmydata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_getmydata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EE93648090829DD2E9963B /* Pods-getmydata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getmydata.release.xcconfig"; path = "Target Support Files/Pods-getmydata/Pods-getmydata.release.xcconfig"; sourceTree = "<group>"; };
 		EAE4A620CD80027979329E9A /* Pods-getmydata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getmydata.debug.xcconfig"; path = "Target Support Files/Pods-getmydata/Pods-getmydata.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +82,8 @@
 		8154052E2879CD8600361016 = {
 			isa = PBXGroup;
 			children = (
+				81689BB128C4919F0087ADA0 /* CompanyData.swift */,
+				81689BAF28C48EB90087ADA0 /* Company.swift */,
 				815405392879CD8600361016 /* getmydata */,
 				815405382879CD8600361016 /* Products */,
 				80E14D0390D6154C927E8AB6 /* Pods */,
@@ -95,6 +111,7 @@
 				81CD43C5287D757B004C9521 /* ViewModel */,
 				81CD43C4287D7553004C9521 /* View */,
 				81CD43C3287D7540004C9521 /* Model */,
+				813640DA28C65001008E690F /* Core2.xcdatamodeld */,
 			);
 			path = getmydata;
 			sourceTree = "<group>";
@@ -111,7 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				8154053E2879CD8600361016 /* ViewController.swift */,
+				816A11DB28C31DF60009C31D /* GitProfileXib.swift */,
+				816A11DC28C31DF60009C31D /* GitProfileXib.xib */,
 				815405402879CD8600361016 /* Main.storyboard */,
+				8173EB9828C3560500DF272A /* SecondVcViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 			children = (
 				81402874287AF73000F526BD /* Upload.swift */,
 				815C74B0287D824800C33004 /* Networking.swift */,
+				816A11D928C319260009C31D /* GithubModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,6 +215,7 @@
 			files = (
 				815405472879CD8800361016 /* LaunchScreen.storyboard in Resources */,
 				815405442879CD8800361016 /* Assets.xcassets in Resources */,
+				816A11DE28C31DF60009C31D /* GitProfileXib.xib in Resources */,
 				815405422879CD8600361016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +271,15 @@
 			files = (
 				81402875287AF73000F526BD /* Upload.swift in Sources */,
 				8154053F2879CD8600361016 /* ViewController.swift in Sources */,
+				8173EB9928C3560500DF272A /* SecondVcViewController.swift in Sources */,
+				81689BB028C48EB90087ADA0 /* Company.swift in Sources */,
 				8154053B2879CD8600361016 /* AppDelegate.swift in Sources */,
+				813640DC28C65001008E690F /* Core2.xcdatamodeld in Sources */,
 				815C74B1287D824800C33004 /* Networking.swift in Sources */,
+				816A11DA28C319260009C31D /* GithubModel.swift in Sources */,
 				8154053D2879CD8600361016 /* SceneDelegate.swift in Sources */,
+				81689BB228C4919F0087ADA0 /* CompanyData.swift in Sources */,
+				816A11DD28C31DF60009C31D /* GitProfileXib.swift in Sources */,
 				8154054F2879D04900361016 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +500,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		813640DA28C65001008E690F /* Core2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				813640DB28C65001008E690F /* Core2.xcdatamodel */,
+			);
+			currentVersion = 813640DB28C65001008E690F /* Core2.xcdatamodel */;
+			path = Core2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8154052F2879CD8600361016 /* Project object */;
 }
